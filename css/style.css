@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  margin: auto;
+}
+
+header img#google-nav-logo {
+  width: 12%;
+  height: 30%;
+}
+
+header div.header-main-content {
+  width: 98%;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul li {
+  display: inline;
+  list-style: none;
+}
+
+header form {
+  width: 70%;
+}
+
+header div#form-bar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header div#right-aligned-icon-set {
+  display: inline-flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+header div#right-aligned-icon-set p {
+  display: inline;
+}
