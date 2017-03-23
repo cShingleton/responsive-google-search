@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  line-height: 1.4;
+}
+
+aside#search-summary-sidebar {
+    padding: 10px;
+}
+
 /* HEADER STYLES */
 header {
   background-color: #fafafa;
@@ -14,8 +23,8 @@ header .container {
 }
 
 header img#google-nav-logo {
-  width: 12%;
-  height: 30%;
+  width: 85px;
+  height: 45px;
 }
 
 header div.header-main-content {
@@ -48,4 +57,21 @@ header div#right-aligned-icon-set {
 
 header div#right-aligned-icon-set p {
   display: inline;
+}
+
+@media screen and (min-width:800px) {
+
+/* SEARCH RESULTS CONTAINER */
+.container {
+  max-width: 1200px;
+  display: flex;
+}
+
+section#main-search-results {
+    width: 62%;
+}
+aside#search-summary-sidebar {
+    width: 38%;
+    order: 2;
+}
 }
